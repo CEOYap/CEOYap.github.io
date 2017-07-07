@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on LY - A Hobbyist | Medical Student</title>
+    <link>https://ceoyap.github.io/post/</link>
+    <description>Recent content in Posts on LY - A Hobbyist | Medical Student</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ceoyap.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Part 2: Medicine programme in-depth</title>
+      <link>https://ceoyap.github.io/2017/07/part-2-medicine-programme-in-depth/</link>
+      <pubDate>Fri, 07 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ceoyap.github.io/2017/07/part-2-medicine-programme-in-depth/</guid>
+      <description>&lt;p&gt;This is part 2 of the post regarding the medicine programme that is available in Universiti Brunei Darusalam. All these information are correct. They are based on author experience and are also gathered from the main website.
+&lt;div class=&#34;alert info &#34;&gt;
+  &lt;p&gt;This post will be updated if the contents are outdated. Please do contact the author if there are any mistake or problem in the post.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Part 1: Medicine programme in UBD, Brunei Darussalam?</title>
+      <link>https://ceoyap.github.io/2017/07/part-1-medicine-programme-in-ubd-brunei-darussalam/</link>
+      <pubDate>Thu, 06 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ceoyap.github.io/2017/07/part-1-medicine-programme-in-ubd-brunei-darussalam/</guid>
+      <description>&lt;p&gt;This is part 1 of the post regarding the medicine programme that is available in Universiti Brunei Darusalam. All these information are correct. They are based on author experience and are also gathered from the main website.
+&lt;div class=&#34;alert info &#34;&gt;
+  &lt;p&gt;This post will be updated if the contents are outdated. Please do contact the author if there are any mistake or problem in the post.&lt;/p&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>WIP3: All heroes added and new card design!</title>
+      <link>https://ceoyap.github.io/2017/06/wip3-all-heroes-added-and-new-card-design/</link>
+      <pubDate>Tue, 06 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ceoyap.github.io/2017/06/wip3-all-heroes-added-and-new-card-design/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve finally graduated from university! Time to use my spare time developing this game. Onwards to the new update, i&amp;rsquo;ve finally added all the heroes from DOTA 2 with all the required stats. It&amp;rsquo;s now in a playable state but it still require some serious work on the stats.
+
+Beside that, i&amp;rsquo;ve made a new design to the card and created a website specifically for &amp;ldquo;&lt;a href=&#34;https://ceoyap.github.io/D2CCG.htm&#34;&gt;DOTA2-CCG&lt;/a&gt;&amp;rdquo;, which can also be accessed from the sidebar menu.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>WIP2: Slow development progress</title>
+      <link>https://ceoyap.github.io/2017/04/wip2-slow-development-progress/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ceoyap.github.io/2017/04/wip2-slow-development-progress/</guid>
+      <description>&lt;p&gt;This update is just to update you guys that i am still working on the game but lately the progress has been really slow as i have exam starting 1st May.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>WIP1: Dota 2 Collectible Card Game</title>
+      <link>https://ceoyap.github.io/2017/03/wip1-dota-2-collectible-card-game/</link>
+      <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ceoyap.github.io/2017/03/wip1-dota-2-collectible-card-game/</guid>
+      <description>&lt;p&gt;A simple free CCG using Unreal Engine that has the same ruleset as Hearthstone so that the game will be easy for newbies to pickup.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
