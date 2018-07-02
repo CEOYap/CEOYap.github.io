@@ -6,10 +6,22 @@
     <description>Recent content in Posts on LY - A Hobbyist | Medical Student</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ceoyap.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>10/12-bit x265 encoding with Handbrake</title>
+      <link>https://ceoyap.github.io/2018/07/10/12-bit-x265-encoding-with-handbrake/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ceoyap.github.io/2018/07/10/12-bit-x265-encoding-with-handbrake/</guid>
+      <description>&lt;p&gt;You may have seen x265 releases in the net and be suprised with the quality and size of those movies/tv-shows compared to the old x264. You might be wondering - How do i encode all those Blu-rays i got into x265 for storage?&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s when Handbrake comes in handy! You can easily encode any movies into x265 or even other formats (i.e mp4, mkv, mov and etc).
+&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Part 5: A Complete EQ Tutorial (DnBscene.com)</title>
