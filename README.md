@@ -16,6 +16,8 @@ Cover Image Size : 1903x521
 Thumbnail Image Size: 140x140
 
 
+### Dependencies:
+Fontawesome : head.html
 
 ## Credits
 
