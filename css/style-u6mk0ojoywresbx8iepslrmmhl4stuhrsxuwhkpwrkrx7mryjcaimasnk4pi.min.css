@@ -87,7 +87,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background: #fff;
+    background: #23232d;
     font-size: 1.6rem;
     line-height: 1.9em;
     letter-spacing: .01em;
@@ -108,7 +108,7 @@ h6 {
     letter-spacing: -.04em;
     font-weight: 700;
     line-height: 1.45em;
-    color: #4a4a4a
+    color: #fff
 }
 
 code,
@@ -322,7 +322,7 @@ blockquote>p:first-child {
     position: relative;
     top: -1000px;
     display: block;
-    background: #fff;
+    background: #23232d;
     max-width: 500px;
     margin: 15px auto;
     border-radius: 3px;
@@ -440,7 +440,7 @@ blockquote>p:first-child {
 #bottom-bar {
     bottom: 0;
     height: 60px;
-    background: #fff;
+    background: #23232d;
     margin: 0;
     border-top: 1px solid #eef2f8;
     padding: 0 15px;
@@ -451,7 +451,7 @@ blockquote>p:first-child {
 
 #header,
 #main {
-    background: #fff;
+    background: #23232d;
     transition: transform .25s ease-in-out
 }
 
@@ -1785,7 +1785,7 @@ figure.highlight .gutter {
 
 .alert.info {
     border-color: #349ef3;
-    background-color: #e6f3fe;
+    background-color: rgba(255,255,255,.2);
     content: "\f05a";
 }
 
@@ -1796,7 +1796,7 @@ figure.highlight .gutter {
 
 .alert.success {
     border-color: #4dc657;
-    background-color: #effaf0;
+    background-color: rgba(255,255,255,.2);
     content: "\f058";
 }
 
@@ -1830,7 +1830,7 @@ figure.highlight .gutter {
 }
 
 .archive .archive-title {
-    color: #5d686f
+    color: #dfdfdf
 }
 
 .archive .archive-posts {
@@ -1839,7 +1839,7 @@ figure.highlight .gutter {
 
 .archive .archive-posts .archive-post .archive-post-title {
     margin-left: 10px;
-    color: #5d686f
+    color: #dfdfdf
 }
 
 .archive .archive-posts .archive-post .archive-post-date {
@@ -1848,7 +1848,8 @@ figure.highlight .gutter {
 
 .archive .archive-posts .archive-post::before {
     font-family: "Font Awesome 5 Free";
-    content: '\f0da';
+    font-weight: 900;
+    content: "\f0da";
     font-size: 1.3rem
 }
 
@@ -1864,7 +1865,7 @@ figure.highlight .gutter {
 .btn {
     width: auto;
     height: auto;
-    background: #fff;
+    background: ##2c2c36;
     border-radius: 3px;
     margin: 0;
     letter-spacing: .01em;
@@ -1892,8 +1893,8 @@ figure.highlight .gutter {
 }
 
 .btn--default:hover {
-    color: #738691!important;
-    border: 1px solid #738691
+    color: #fff!important;
+    border: 1px solid #fff
 }
 
 .btn--success {
@@ -2124,7 +2125,7 @@ figure.highlight .line {
     width: 100%;
     border: none;
     outline: 0;
-    color: #5d686f;
+    color: #fff;
     font-weight: 300
 }
 
@@ -2564,7 +2565,7 @@ a.fancybox {
     text-rendering: optimizelegibility;
     letter-spacing: -.3px;
     font-family: Merriweather, serif;
-    color: #5d686f;
+    color: #dfdfdf;
     margin-top: 20px;
     font-weight: 400;
     overflow: hidden;
@@ -2942,7 +2943,7 @@ a.fancybox {
     text-rendering: optimizelegibility;
     letter-spacing: -.3px;
     font-family: Merriweather, serif;
-    color: #5d686f;
+    color: #dfdfdf;
     font-weight: 400;
     overflow: hidden;
     -webkit-hypens: auto;
