@@ -6,10 +6,19 @@
     <description>Recent content on LY - A Hobbyist | Medical Student</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ceoyap.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>WIP4: Board design done!</title>
+      <link>https://ceoyap.github.io/2019/01/wip4-board-design-done/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ceoyap.github.io/2019/01/wip4-board-design-done/</guid>
+      <description>&lt;p&gt;I am pretty sure you guys are excited with these latest update on the game. I finally completed the map! Wooohooo!&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>A Guide To Piracy</title>
