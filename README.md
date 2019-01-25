@@ -11,12 +11,12 @@ Helping & Caring our future doctors in every step
 
 ### Post Details:
 
-Cover Image Size : 1903x521
+Cover Image Size : 1920x1017
 
 Thumbnail Image Size: 140x140
 
 
-### Dependencies:
+### Dependencies location:
 Fontawesome : head.html
 
 ## Credits
