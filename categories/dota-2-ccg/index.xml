@@ -6,10 +6,19 @@
     <description>Recent content in Dota 2 Ccg on LY - A Hobbyist | Medical Student</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ceoyap.github.io/categories/dota-2-ccg/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>WIP5: Mainmenu &amp; Stuff!</title>
+      <link>https://ceoyap.github.io/2019/03/wip5-mainmenu-stuff/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ceoyap.github.io/2019/03/wip5-mainmenu-stuff/</guid>
+      <description>&lt;p&gt;A month has passed and a new development update for DoKad 2!&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>WIP4: Board design done!</title>
@@ -35,7 +44,7 @@
       <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://ceoyap.github.io/2017/04/wip2-slow-development-progress/</guid>
-      <description>&lt;p&gt;This update is just to update you guys that i am still working on the game but lately the progress has been really slow as i have exam starting 1st May.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I am writing this to late you guys know that i am still working on the game but lately the progress has been really slow as i have exam starting 1st May.&lt;/p&gt;</description>
     </item>
     
     <item>

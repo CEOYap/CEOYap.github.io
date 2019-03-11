@@ -28,7 +28,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Hugo 0.53">
     <meta name="theme" content="Tranquilpeak 0.3.1-BETA">
-    <title>WIP4: Board design done!</title>
+    <title>WIP5: Mainmenu &amp; Stuff!</title>
     <meta name="author" content="LY">
     <meta name="keywords" content="dota 2">
 
@@ -36,15 +36,15 @@
     
 
     
-    <meta name="description" content="I am pretty sure you guys are excited with these latest update on the game. I finally completed the map! Wooohooo!">
-    <meta property="og:description" content="I am pretty sure you guys are excited with these latest update on the game. I finally completed the map! Wooohooo!">
+    <meta name="description" content="A month has passed and a new development update for DoKad 2!">
+    <meta property="og:description" content="A month has passed and a new development update for DoKad 2!">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="WIP4: Board design done!">
-    <meta property="og:url" content="/2019/01/wip4-board-design-done/">
+    <meta property="og:title" content="WIP5: Mainmenu &amp; Stuff!">
+    <meta property="og:url" content="/2019/03/wip5-mainmenu-stuff/">
     <meta property="og:site_name" content="LY - A Hobbyist | Medical Student">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="LY - A Hobbyist | Medical Student">
-    <meta name="twitter:description" content="I am pretty sure you guys are excited with these latest update on the game. I finally completed the map! Wooohooo!">
+    <meta name="twitter:description" content="A month has passed and a new development update for DoKad 2!">
     
       <meta name="twitter:creator" content="@Brandon_Yappe">
     
@@ -59,7 +59,7 @@
 
     
     
-      <meta property="og:image" content="//i.imgur.com/3ras2nx.png">
+      <meta property="og:image" content="//i.imgur.com/chf3KdL.png">
     
     
 
@@ -216,20 +216,20 @@ if (!doNotTrack) {
   <div class="post-header-cover
               text-center
               "
-       style="background-image:url('//i.imgur.com/3ras2nx.png')"
+       style="background-image:url('//i.imgur.com/chf3KdL.png')"
        data-behavior="2">
     
       <div class="post-header main-content-wrap text-center">
   
     <h1 class="post-title" itemprop="headline">
-      WIP4: Board design done!
+      WIP5: Mainmenu &amp; Stuff!
     </h1>
   
   <div class="postShorten-meta post-meta">
   
-    <time itemprop="datePublished" datetime="2019-01-25T00:00:00Z">
+    <time itemprop="datePublished" datetime="2019-03-01T00:00:00Z">
       
-  January 25, 2019
+  March 1, 2019
 
     </time>
   
@@ -259,354 +259,230 @@ if (!doNotTrack) {
           
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
-              <p>I am pretty sure you guys are excited with these latest update on the game. I finally completed the map! Wooohooo!</p>
-
-<p><a href="https://store.steampowered.com/app/583950/Artifact/">Artifact</a> is finally out on Steam and people are downright furious with the game. Lorewise the game is great, but the amount of money needed to play the game are straightup insane! I seriously can&rsquo;t wait for that game to go Free-to-play. I mean, the game is so bad that it ended up <a href="https://www.githyp.com/valves-artifact-ended-2018-outside-steams-top-100-most-played-games/">out of Steam Top 100</a> games in 2018!.</p>
+              <p>A month has passed and a new development update for DoKad 2!</p>
 
 <hr />
 
-<h1 id="minor-updates">Minor updates</h1>
+<h1 id="working-mainmenu-woohoo">Working mainmenu! Woohoo!</h1>
 
-<p>The game is now known as DoKad 2, with a hard &ldquo;K&rdquo; and currently uses Unreal Engine v4.20, as latest version of Unreal Engine has a huge download size. Nonetheless, the map has been completed and it is much better than the initial version.</p>
+<p>The mainmenu for DoKad 2 has been built from scratch and it really need a UI upgrade, which is already in my to-do list. I&rsquo;ve included multiplayer widgets into the mainmenu to reduce CPU usage, because the <a href="https://docs.unrealengine.com/en-us/Engine/Blueprints">blueprints</a> i&rsquo;ve made seems to create a new process within Unreal Engine as a new widget is opened. Additionally, the game engine has been fully updated to v4.21 without any issues.</p>
 
-<p>Additionally, the game has an AI now to enable singleplayer mode. Multiplayer has already been implemented in the game, however no matchmaking system is currently available. Therefore, you need to portforward(except for LAN) and use IP address to connect other people&rsquo;s game. If the game do gain traction in the future, i would consider implementing a matchmaking system.</p>
 
-<p>Heroes has also been divided into Strength, Intelligence and Agility, instead of Dota 2. This implementation shall not affect future added heroes from other universes (i.e League of Legends, and Heroes of the Storm). Latest heroes such as Pangolier, Dark Willow and Grimstroke will be added in the future as soon as core features are done.</p>
+
+ 
+  
+  
+  
+  
+    
+  
+
+<div class="figure " >
+  
+    <a href="https://i.imgur.com/5RtXFof.png" data-caption="Sorry, ugly mainmenu here" data-fancybox="">
+  
+    <img src="https://i.imgur.com/5RtXFof.png" alt="{map[classes:fancybox src:https://i.imgur.com/5RtXFof.png thumbnail:https://i.imgur.com/5RtXFof.png title:Sorry, ugly mainmenu here]  Page(/post/2019-3-01-WIP5-Menuandstuff.md) &lt;nil&gt; image true 0 {{0 0} 0} 790 { 0 0 0} 0xc0006ad580}">
+  
+    </a>
+  
+   
+    <span class="caption">Sorry, ugly mainmenu here</span>
+  
+</div>
+
+
+<p>LAN networking is fully working, however, i am having trouble with the in-game UI, to show &ldquo;Awaiting player to join&rdquo;. The game instantly spawn an AI. To overcome this problem, launching either &ldquo;Singleplayer&rdquo; or &ldquo;Multiplayer&rdquo; game will show options to either wait for a player to join or spawn an AI. Furtheremore, there are a selection of UIs that i have to fix which includes &ldquo;Deck Selection&rdquo;, which has UI size problem, &ldquo;Game Options&rdquo;, and &ldquo;Deck Builder&rdquo;.</p>
+
+
+
+ 
+  
+  
+  
+  
+    
+  
+
+<div class="figure " >
+  
+    <a href="https://i.imgur.com/qQvTOxT.png" data-caption="Finally! A working Loading Screen" data-fancybox="">
+  
+    <img src="https://i.imgur.com/qQvTOxT.png" alt="{map[classes:fancybox src:https://i.imgur.com/qQvTOxT.png thumbnail:https://i.imgur.com/qQvTOxT.png title:Finally! A working Loading Screen]  Page(/post/2019-3-01-WIP5-Menuandstuff.md) &lt;nil&gt; image true 1 {{0 0} 0} 1404 { 0 0 0} 0xc0005adba0}">
+  
+    </a>
+  
+   
+    <span class="caption">Finally! A working Loading Screen</span>
+  
+</div>
+
+
+<p>UI aside, the game is currently working as intended. However, the gameplay is too similar to Hearthstone and i intend to implement a few mechanics from <a href="https://dotaautochess.gamepedia.com/Dota_Auto_Chess_Wiki">Dota AutoChess</a>, a feature i would love to include is combining &ldquo;2&rdquo; similar cards into a more powerful card.</p>
+
+
+
+ 
+  
+  
+  
+  
+    
+  
+
+<div class="figure " >
+  
+    <a href="https://i.imgur.com/IkTvKdP.jpg" data-caption="Current gameplay (Will change in the future)" data-fancybox="">
+  
+    <img src="https://i.imgur.com/IkTvKdP.jpg" alt="{map[classes:fancybox src:https://i.imgur.com/IkTvKdP.jpg thumbnail:https://i.imgur.com/IkTvKdP.jpg title:Current gameplay (Will change in the future)]  Page(/post/2019-3-01-WIP5-Menuandstuff.md) &lt;nil&gt; image true 2 {{0 0} 0} 1887 { 0 0 0} 0xc000541d60}">
+  
+    </a>
+  
+   
+    <span class="caption">Current gameplay (Will change in the future)</span>
+  
+</div>
+
+
+<p>Do checkout DoKad 2 developmental progress through <a href="https://trello.com/b/T8QKU19Y/dokad-2-a-dota-2-card-game">Trello</a>.</p>
 
 <h3 id="tl-dr">TL;DR:</h3>
 
 <ul>
-<li><p>Game is now known as DoKad 2</p></li>
+<li><p>A working mainmenu and loading screen</p></li>
 
-<li><p>Game updated to Unreal Engine 4.20</p></li>
+<li><p>Game updated to Unreal Engine 4.21</p></li>
 
-<li><p>Singleplayer available</p></li>
+<li><p>Direct connect and LAN networking</p></li>
 
-<li><p>No matchmaking system (i.e Steamworks)</p></li>
+<li><p>Game Options, Deck Selection, Deck Builder not done yet</p></li>
 
-<li><p>Heroes categorised on attributes, instead of Universes (i.e Dota 2, LoL)</p></li>
+<li><p>Possibility of adding Dota Auto Chess upgrading mechanics</p></li>
 
-<li><p>Latest heroes not available yet</p></li>
+<li><p>Follow progress through <a href="https://trello.com/b/T8QKU19Y/dokad-2-a-dota-2-card-game">Trello</a></p></li>
 </ul>
-
-<hr />
-
-<h1 id="the-battleground-is-finally-complete">The Battleground is finally complete!</h1>
-
-<p>The map uses asset from Dota 2 Source 1 engine and Synty Studios. I will soon upload the Dota 2 Source 1 assets for use. Thanks to the low poly count, low spec computers will be able to play the game at its maximum framerate</p>
-
-<p>Do click on the images to zoom in.</p>
-
-<h3 id="version-1">Version 1:</h3>
-
-<p>This version shows the basic design of the map by using assets from Dota 2. You may notice that some objects have been removed in the final version as they are known to block players view.</p>
-
-
-
- 
-  
-  
-  
-  
-    
-  
-
-<div class="figure " >
-  
-    <a href="https://i.imgur.com/JMGFmud.png" data-caption="View from the Radiant" data-fancybox="">
-  
-    <img src="https://i.imgur.com/JMGFmud.png" alt="{map[thumbnail:https://i.imgur.com/JMGFmud.png title:View from the Radiant classes:fancybox src:https://i.imgur.com/JMGFmud.png]  Page(/post/2019-1-25-WIP4-boarddesign.md) &lt;nil&gt; image true 0 {{0 0} 0} 2612 { 0 0 0} 0xc00091bcc0}">
-  
-    </a>
-  
-   
-    <span class="caption">View from the Radiant</span>
-  
-</div>
-
-
-
-
- 
-  
-  
-  
-  
-    
-  
-
-<div class="figure " >
-  
-    <a href="https://i.imgur.com/vQ5hSbB.png" data-caption="View from the Dire" data-fancybox="">
-  
-    <img src="https://i.imgur.com/vQ5hSbB.png" alt="{map[classes:fancybox src:https://i.imgur.com/vQ5hSbB.png thumbnail:https://i.imgur.com/vQ5hSbB.png title:View from the Dire]  Page(/post/2019-1-25-WIP4-boarddesign.md) &lt;nil&gt; image true 1 {{0 0} 0} 2760 { 0 0 0} 0xc000576fc0}">
-  
-    </a>
-  
-   
-    <span class="caption">View from the Dire</span>
-  
-</div>
-
-
-<h3 id="version-2">Version 2:</h3>
-
-<p>This final version of the board can be played from start to finish without any visual bugs/glitches. However, there are certain things that needed to be fix including the borders of card placement, and position of the cards.</p>
-
-<p>
-
- 
-  
-  
-  
-  
-    
-  
-
-<div class="figure " >
-  
-    <a href="https://i.imgur.com/BCt31YT.png" data-caption="General overview of the map" data-fancybox="">
-  
-    <img src="https://i.imgur.com/BCt31YT.png" alt="{map[title:General overview of the map classes:fancybox src:https://i.imgur.com/BCt31YT.png thumbnail:https://i.imgur.com/BCt31YT.png]  Page(/post/2019-1-25-WIP4-boarddesign.md) &lt;nil&gt; image true 2 {{0 0} 0} 3149 { 0 0 0} 0xc0004996c0}">
-  
-    </a>
-  
-   
-    <span class="caption">General overview of the map</span>
-  
-</div>
-
-
-
- 
-  
-  
-  
-  
-    
-  
-
-<div class="figure " >
-  
-    <a href="https://i.imgur.com/SCQSJqV.png" data-caption="Radiant view" data-fancybox="">
-  
-    <img src="https://i.imgur.com/SCQSJqV.png" alt="{map[thumbnail:https://i.imgur.com/SCQSJqV.png title:Radiant view classes:fancybox src:https://i.imgur.com/SCQSJqV.png]  Page(/post/2019-1-25-WIP4-boarddesign.md) &lt;nil&gt; image true 3 {{0 0} 0} 3301 { 0 0 0} 0xc000634820}">
-  
-    </a>
-  
-   
-    <span class="caption">Radiant view</span>
-  
-</div>
-
-
-
- 
-  
-  
-  
-  
-    
-  
-
-<div class="figure " >
-  
-    <a href="https://i.imgur.com/KXEKjvT.png" data-caption="Dire view" data-fancybox="">
-  
-    <img src="https://i.imgur.com/KXEKjvT.png" alt="{map[classes:fancybox src:https://i.imgur.com/KXEKjvT.png thumbnail:https://i.imgur.com/KXEKjvT.png title:Dire view]  Page(/post/2019-1-25-WIP4-boarddesign.md) &lt;nil&gt; image true 4 {{0 0} 0} 3438 { 0 0 0} 0xc000886b80}">
-  
-    </a>
-  
-   
-    <span class="caption">Dire view</span>
-  
-</div>
-</p>
 
 <hr />
 
 <h1 id="closing-thoughts">Closing thoughts</h1>
 
-<p>With the gameboard now complete, my next task is to add a new mainmenu and sounds to the game. Soon after, i will have to change the stats of every single heroes and add unique abilities. I also intend to add some bonus features or &ldquo;clickables&rdquo; to the board, as seen in Hearthstone gameboard.</p>
+<p>In my honest opinion, i can totally release the pre-alpha version of the game at this stage. However, there are some issues that have to be solved. I will have a network and gameplay test from Aus with my peeps in Ireland as soon as i complete the in-game UI/UX, which will take forever cause i tend to procrastinate a lot!</p>
 
-<p>Unfortunately, i can only spare a few minutes on developing this game. Therefore, i am not able to provide any release date. Fret not! You guys shall be the first person to know the game release date!</p>
+<p>I am currently working on a few projects which i could monetise to help support my current study in Sydney. I recently made a synthwave track to include into the latest Progresif Locals Only: EDM album.</p>
 
-<p>Finally, thank you for following my journey in developing DoKad 2. I believe this game will be much fun, if not, better than Artifact.</p>
+<p>Furthermore, i am currently working on a survivor horror game roughly based on <a href="http://www.scp-wiki.net/">SCP Foundation</a>. I will soon annouce this project on a later date once i have confidence with the map i am currently prototyping for the game.</p>
 
 <hr />
-              <p>I am pretty sure you guys are excited with these latest update on the game. I finally completed the map! Wooohooo!</p>
-
-<p><a href="https://store.steampowered.com/app/583950/Artifact/">Artifact</a> is finally out on Steam and people are downright furious with the game. Lorewise the game is great, but the amount of money needed to play the game are straightup insane! I seriously can&rsquo;t wait for that game to go Free-to-play. I mean, the game is so bad that it ended up <a href="https://www.githyp.com/valves-artifact-ended-2018-outside-steams-top-100-most-played-games/">out of Steam Top 100</a> games in 2018!.</p>
+              <p>A month has passed and a new development update for DoKad 2!</p>
 
 <hr />
 
-<h1 id="minor-updates">Minor updates</h1>
+<h1 id="working-mainmenu-woohoo">Working mainmenu! Woohoo!</h1>
 
-<p>The game is now known as DoKad 2, with a hard &ldquo;K&rdquo; and currently uses Unreal Engine v4.20, as latest version of Unreal Engine has a huge download size. Nonetheless, the map has been completed and it is much better than the initial version.</p>
+<p>The mainmenu for DoKad 2 has been built from scratch and it really need a UI upgrade, which is already in my to-do list. I&rsquo;ve included multiplayer widgets into the mainmenu to reduce CPU usage, because the <a href="https://docs.unrealengine.com/en-us/Engine/Blueprints">blueprints</a> i&rsquo;ve made seems to create a new process within Unreal Engine as a new widget is opened. Additionally, the game engine has been fully updated to v4.21 without any issues.</p>
 
-<p>Additionally, the game has an AI now to enable singleplayer mode. Multiplayer has already been implemented in the game, however no matchmaking system is currently available. Therefore, you need to portforward(except for LAN) and use IP address to connect other people&rsquo;s game. If the game do gain traction in the future, i would consider implementing a matchmaking system.</p>
 
-<p>Heroes has also been divided into Strength, Intelligence and Agility, instead of Dota 2. This implementation shall not affect future added heroes from other universes (i.e League of Legends, and Heroes of the Storm). Latest heroes such as Pangolier, Dark Willow and Grimstroke will be added in the future as soon as core features are done.</p>
+
+ 
+  
+  
+  
+  
+    
+  
+
+<div class="figure " >
+  
+    <a href="https://i.imgur.com/5RtXFof.png" data-caption="Sorry, ugly mainmenu here" data-fancybox="">
+  
+    <img src="https://i.imgur.com/5RtXFof.png" alt="{map[classes:fancybox src:https://i.imgur.com/5RtXFof.png thumbnail:https://i.imgur.com/5RtXFof.png title:Sorry, ugly mainmenu here]  Page(/post/2019-3-01-WIP5-Menuandstuff.md) &lt;nil&gt; image true 0 {{0 0} 0} 790 { 0 0 0} 0xc0006ad580}">
+  
+    </a>
+  
+   
+    <span class="caption">Sorry, ugly mainmenu here</span>
+  
+</div>
+
+
+<p>LAN networking is fully working, however, i am having trouble with the in-game UI, to show &ldquo;Awaiting player to join&rdquo;. The game instantly spawn an AI. To overcome this problem, launching either &ldquo;Singleplayer&rdquo; or &ldquo;Multiplayer&rdquo; game will show options to either wait for a player to join or spawn an AI. Furtheremore, there are a selection of UIs that i have to fix which includes &ldquo;Deck Selection&rdquo;, which has UI size problem, &ldquo;Game Options&rdquo;, and &ldquo;Deck Builder&rdquo;.</p>
+
+
+
+ 
+  
+  
+  
+  
+    
+  
+
+<div class="figure " >
+  
+    <a href="https://i.imgur.com/qQvTOxT.png" data-caption="Finally! A working Loading Screen" data-fancybox="">
+  
+    <img src="https://i.imgur.com/qQvTOxT.png" alt="{map[classes:fancybox src:https://i.imgur.com/qQvTOxT.png thumbnail:https://i.imgur.com/qQvTOxT.png title:Finally! A working Loading Screen]  Page(/post/2019-3-01-WIP5-Menuandstuff.md) &lt;nil&gt; image true 1 {{0 0} 0} 1404 { 0 0 0} 0xc0005adba0}">
+  
+    </a>
+  
+   
+    <span class="caption">Finally! A working Loading Screen</span>
+  
+</div>
+
+
+<p>UI aside, the game is currently working as intended. However, the gameplay is too similar to Hearthstone and i intend to implement a few mechanics from <a href="https://dotaautochess.gamepedia.com/Dota_Auto_Chess_Wiki">Dota AutoChess</a>, a feature i would love to include is combining &ldquo;2&rdquo; similar cards into a more powerful card.</p>
+
+
+
+ 
+  
+  
+  
+  
+    
+  
+
+<div class="figure " >
+  
+    <a href="https://i.imgur.com/IkTvKdP.jpg" data-caption="Current gameplay (Will change in the future)" data-fancybox="">
+  
+    <img src="https://i.imgur.com/IkTvKdP.jpg" alt="{map[classes:fancybox src:https://i.imgur.com/IkTvKdP.jpg thumbnail:https://i.imgur.com/IkTvKdP.jpg title:Current gameplay (Will change in the future)]  Page(/post/2019-3-01-WIP5-Menuandstuff.md) &lt;nil&gt; image true 2 {{0 0} 0} 1887 { 0 0 0} 0xc000541d60}">
+  
+    </a>
+  
+   
+    <span class="caption">Current gameplay (Will change in the future)</span>
+  
+</div>
+
+
+<p>Do checkout DoKad 2 developmental progress through <a href="https://trello.com/b/T8QKU19Y/dokad-2-a-dota-2-card-game">Trello</a>.</p>
 
 <h3 id="tl-dr">TL;DR:</h3>
 
 <ul>
-<li><p>Game is now known as DoKad 2</p></li>
+<li><p>A working mainmenu and loading screen</p></li>
 
-<li><p>Game updated to Unreal Engine 4.20</p></li>
+<li><p>Game updated to Unreal Engine 4.21</p></li>
 
-<li><p>Singleplayer available</p></li>
+<li><p>Direct connect and LAN networking</p></li>
 
-<li><p>No matchmaking system (i.e Steamworks)</p></li>
+<li><p>Game Options, Deck Selection, Deck Builder not done yet</p></li>
 
-<li><p>Heroes categorised on attributes, instead of Universes (i.e Dota 2, LoL)</p></li>
+<li><p>Possibility of adding Dota Auto Chess upgrading mechanics</p></li>
 
-<li><p>Latest heroes not available yet</p></li>
+<li><p>Follow progress through <a href="https://trello.com/b/T8QKU19Y/dokad-2-a-dota-2-card-game">Trello</a></p></li>
 </ul>
-
-<hr />
-
-<h1 id="the-battleground-is-finally-complete">The Battleground is finally complete!</h1>
-
-<p>The map uses asset from Dota 2 Source 1 engine and Synty Studios. I will soon upload the Dota 2 Source 1 assets for use. Thanks to the low poly count, low spec computers will be able to play the game at its maximum framerate</p>
-
-<p>Do click on the images to zoom in.</p>
-
-<h3 id="version-1">Version 1:</h3>
-
-<p>This version shows the basic design of the map by using assets from Dota 2. You may notice that some objects have been removed in the final version as they are known to block players view.</p>
-
-
-
- 
-  
-  
-  
-  
-    
-  
-
-<div class="figure " >
-  
-    <a href="https://i.imgur.com/JMGFmud.png" data-caption="View from the Radiant" data-fancybox="">
-  
-    <img src="https://i.imgur.com/JMGFmud.png" alt="{map[thumbnail:https://i.imgur.com/JMGFmud.png title:View from the Radiant classes:fancybox src:https://i.imgur.com/JMGFmud.png]  Page(/post/2019-1-25-WIP4-boarddesign.md) &lt;nil&gt; image true 0 {{0 0} 0} 2612 { 0 0 0} 0xc00091bcc0}">
-  
-    </a>
-  
-   
-    <span class="caption">View from the Radiant</span>
-  
-</div>
-
-
-
-
- 
-  
-  
-  
-  
-    
-  
-
-<div class="figure " >
-  
-    <a href="https://i.imgur.com/vQ5hSbB.png" data-caption="View from the Dire" data-fancybox="">
-  
-    <img src="https://i.imgur.com/vQ5hSbB.png" alt="{map[classes:fancybox src:https://i.imgur.com/vQ5hSbB.png thumbnail:https://i.imgur.com/vQ5hSbB.png title:View from the Dire]  Page(/post/2019-1-25-WIP4-boarddesign.md) &lt;nil&gt; image true 1 {{0 0} 0} 2760 { 0 0 0} 0xc000576fc0}">
-  
-    </a>
-  
-   
-    <span class="caption">View from the Dire</span>
-  
-</div>
-
-
-<h3 id="version-2">Version 2:</h3>
-
-<p>This final version of the board can be played from start to finish without any visual bugs/glitches. However, there are certain things that needed to be fix including the borders of card placement, and position of the cards.</p>
-
-<p>
-
- 
-  
-  
-  
-  
-    
-  
-
-<div class="figure " >
-  
-    <a href="https://i.imgur.com/BCt31YT.png" data-caption="General overview of the map" data-fancybox="">
-  
-    <img src="https://i.imgur.com/BCt31YT.png" alt="{map[title:General overview of the map classes:fancybox src:https://i.imgur.com/BCt31YT.png thumbnail:https://i.imgur.com/BCt31YT.png]  Page(/post/2019-1-25-WIP4-boarddesign.md) &lt;nil&gt; image true 2 {{0 0} 0} 3149 { 0 0 0} 0xc0004996c0}">
-  
-    </a>
-  
-   
-    <span class="caption">General overview of the map</span>
-  
-</div>
-
-
-
- 
-  
-  
-  
-  
-    
-  
-
-<div class="figure " >
-  
-    <a href="https://i.imgur.com/SCQSJqV.png" data-caption="Radiant view" data-fancybox="">
-  
-    <img src="https://i.imgur.com/SCQSJqV.png" alt="{map[thumbnail:https://i.imgur.com/SCQSJqV.png title:Radiant view classes:fancybox src:https://i.imgur.com/SCQSJqV.png]  Page(/post/2019-1-25-WIP4-boarddesign.md) &lt;nil&gt; image true 3 {{0 0} 0} 3301 { 0 0 0} 0xc000634820}">
-  
-    </a>
-  
-   
-    <span class="caption">Radiant view</span>
-  
-</div>
-
-
-
- 
-  
-  
-  
-  
-    
-  
-
-<div class="figure " >
-  
-    <a href="https://i.imgur.com/KXEKjvT.png" data-caption="Dire view" data-fancybox="">
-  
-    <img src="https://i.imgur.com/KXEKjvT.png" alt="{map[classes:fancybox src:https://i.imgur.com/KXEKjvT.png thumbnail:https://i.imgur.com/KXEKjvT.png title:Dire view]  Page(/post/2019-1-25-WIP4-boarddesign.md) &lt;nil&gt; image true 4 {{0 0} 0} 3438 { 0 0 0} 0xc000886b80}">
-  
-    </a>
-  
-   
-    <span class="caption">Dire view</span>
-  
-</div>
-</p>
 
 <hr />
 
 <h1 id="closing-thoughts">Closing thoughts</h1>
 
-<p>With the gameboard now complete, my next task is to add a new mainmenu and sounds to the game. Soon after, i will have to change the stats of every single heroes and add unique abilities. I also intend to add some bonus features or &ldquo;clickables&rdquo; to the board, as seen in Hearthstone gameboard.</p>
+<p>In my honest opinion, i can totally release the pre-alpha version of the game at this stage. However, there are some issues that have to be solved. I will have a network and gameplay test from Aus with my peeps in Ireland as soon as i complete the in-game UI/UX, which will take forever cause i tend to procrastinate a lot!</p>
 
-<p>Unfortunately, i can only spare a few minutes on developing this game. Therefore, i am not able to provide any release date. Fret not! You guys shall be the first person to know the game release date!</p>
+<p>I am currently working on a few projects which i could monetise to help support my current study in Sydney. I recently made a synthwave track to include into the latest Progresif Locals Only: EDM album.</p>
 
-<p>Finally, thank you for following my journey in developing DoKad 2. I believe this game will be much fun, if not, better than Artifact.</p>
+<p>Furthermore, i am currently working on a survivor horror game roughly based on <a href="http://www.scp-wiki.net/">SCP Foundation</a>. I will soon annouce this project on a later date once i have confidence with the map i am currently prototyping for the game.</p>
 
 <hr />
               
@@ -622,7 +498,7 @@ if (!doNotTrack) {
       
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--default tooltip--top" href="https://ceoyap.github.io/2019/03/wip5-mainmenu-stuff/" data-tooltip="WIP5: Mainmenu &amp; Stuff!">
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://ceoyap.github.io/2019/03/wangan-midnight-maximum-tune-5-on-pc-with-teknoparrot/" data-tooltip="Wangan Midnight Maximum Tune 5 on PC with TeknoParrot">
           
             <i class="fa fa-angle-left"></i>
             <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
@@ -630,7 +506,7 @@ if (!doNotTrack) {
         </li>
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--default tooltip--top" href="https://ceoyap.github.io/2018/12/a-guide-to-piracy/" data-tooltip="A Guide To Piracy">
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://ceoyap.github.io/2019/01/wip4-board-design-done/" data-tooltip="WIP4: Board design done!">
           
             <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
             <i class="fa fa-angle-right"></i>
@@ -647,17 +523,17 @@ if (!doNotTrack) {
         </a>
       </li>
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https%3a%2f%2fceoyap.github.io%2f2019%2f01%2fwip4-board-design-done%2f">
+        <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https%3a%2f%2fceoyap.github.io%2f2019%2f03%2fwip5-mainmenu-stuff%2f">
           <i class="fab fa-google-plus"></i>
         </a>
       </li>
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fceoyap.github.io%2f2019%2f01%2fwip4-board-design-done%2f">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fceoyap.github.io%2f2019%2f03%2fwip5-mainmenu-stuff%2f">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fceoyap.github.io%2f2019%2f01%2fwip4-board-design-done%2f">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fceoyap.github.io%2f2019%2f03%2fwip5-mainmenu-stuff%2f">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -703,7 +579,7 @@ if (!doNotTrack) {
       
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--default tooltip--top" href="https://ceoyap.github.io/2019/03/wip5-mainmenu-stuff/" data-tooltip="WIP5: Mainmenu &amp; Stuff!">
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://ceoyap.github.io/2019/03/wangan-midnight-maximum-tune-5-on-pc-with-teknoparrot/" data-tooltip="Wangan Midnight Maximum Tune 5 on PC with TeknoParrot">
           
             <i class="fa fa-angle-left"></i>
             <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
@@ -711,7 +587,7 @@ if (!doNotTrack) {
         </li>
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--default tooltip--top" href="https://ceoyap.github.io/2018/12/a-guide-to-piracy/" data-tooltip="A Guide To Piracy">
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://ceoyap.github.io/2019/01/wip4-board-design-done/" data-tooltip="WIP4: Board design done!">
           
             <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
             <i class="fa fa-angle-right"></i>
@@ -728,17 +604,17 @@ if (!doNotTrack) {
         </a>
       </li>
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https%3a%2f%2fceoyap.github.io%2f2019%2f01%2fwip4-board-design-done%2f">
+        <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https%3a%2f%2fceoyap.github.io%2f2019%2f03%2fwip5-mainmenu-stuff%2f">
           <i class="fab fa-google-plus"></i>
         </a>
       </li>
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fceoyap.github.io%2f2019%2f01%2fwip4-board-design-done%2f">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fceoyap.github.io%2f2019%2f03%2fwip5-mainmenu-stuff%2f">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fceoyap.github.io%2f2019%2f01%2fwip4-board-design-done%2f">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fceoyap.github.io%2f2019%2f03%2fwip5-mainmenu-stuff%2f">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -765,17 +641,17 @@ if (!doNotTrack) {
       <div id="share-options-bar" class="share-options-bar" data-behavior="2">
   <ul class="share-options">
     <li class="share-option">
-      <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3a%2f%2fceoyap.github.io%2f2019%2f01%2fwip4-board-design-done%2f">
+      <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3a%2f%2fceoyap.github.io%2f2019%2f03%2fwip5-mainmenu-stuff%2f">
         <i class="fab fa-google-plus"></i><span>Share on Google Plus</span>
       </a>
     </li>
     <li class="share-option">
-      <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fceoyap.github.io%2f2019%2f01%2fwip4-board-design-done%2f">
+      <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fceoyap.github.io%2f2019%2f03%2fwip5-mainmenu-stuff%2f">
         <i class="fab fa-facebook"></i><span>Share on Facebook</span>
       </a>
     </li>
     <li class="share-option">
-      <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fceoyap.github.io%2f2019%2f01%2fwip4-board-design-done%2f">
+      <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fceoyap.github.io%2f2019%2f03%2fwip5-mainmenu-stuff%2f">
         <i class="fab fa-twitter"></i><span>Share on Twitter</span>
       </a>
     </li>
@@ -1051,9 +927,9 @@ $(document).ready(function() {
     
       <script>
         var disqus_config = function () {
-          this.page.url = 'https:\/\/ceoyap.github.io\/2019\/01\/wip4-board-design-done\/';
+          this.page.url = 'https:\/\/ceoyap.github.io\/2019\/03\/wip5-mainmenu-stuff\/';
           
-            this.page.identifier = '\/2019\/01\/wip4-board-design-done\/'
+            this.page.identifier = '\/2019\/03\/wip5-mainmenu-stuff\/'
           
         };
         (function() {

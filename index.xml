@@ -6,10 +6,28 @@
     <description>Recent content on LY - A Hobbyist | Medical Student</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ceoyap.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Wangan Midnight Maximum Tune 5 on PC with TeknoParrot</title>
+      <link>https://ceoyap.github.io/2019/03/wangan-midnight-maximum-tune-5-on-pc-with-teknoparrot/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ceoyap.github.io/2019/03/wangan-midnight-maximum-tune-5-on-pc-with-teknoparrot/</guid>
+      <description>&lt;p&gt;This truly is an exciting news! You can actually play modern arcade titles on PC with TeknoParrot. In this article, i am going to show how to use TeknoParrot to play one of my favourite arcade titles, Wangan Midnight Maximum Tune 5.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>WIP5: Mainmenu &amp; Stuff!</title>
+      <link>https://ceoyap.github.io/2019/03/wip5-mainmenu-stuff/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ceoyap.github.io/2019/03/wip5-mainmenu-stuff/</guid>
+      <description>&lt;p&gt;A month has passed and a new development update for DoKad 2!&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>WIP4: Board design done!</title>
@@ -22,10 +40,10 @@
     
     <item>
       <title>A Guide To Piracy</title>
-      <link>https://ceoyap.github.io/2018/10/a-guide-to-piracy/</link>
-      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      <link>https://ceoyap.github.io/2018/12/a-guide-to-piracy/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ceoyap.github.io/2018/10/a-guide-to-piracy/</guid>
+      <guid>https://ceoyap.github.io/2018/12/a-guide-to-piracy/</guid>
       <description>&lt;p&gt;Before you begin to plunder the Seven seas, you must prepare for all those traps and horrifying DMCA. Fret not! This article shall help you in your journey.
 &lt;div class=&#34;alert info &#34;&gt;
   &lt;p&gt;This post will be updated slowly. If you have any recommendations do comment down below.&lt;/p&gt;
@@ -136,7 +154,7 @@
       <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://ceoyap.github.io/2017/04/wip2-slow-development-progress/</guid>
-      <description>&lt;p&gt;This update is just to update you guys that i am still working on the game but lately the progress has been really slow as i have exam starting 1st May.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I am writing this to late you guys know that i am still working on the game but lately the progress has been really slow as i have exam starting 1st May.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -155,9 +173,9 @@
       
       <guid>https://ceoyap.github.io/page/about/</guid>
       <description>A medical student with an endless curiosity
- Hi, I am a Bruneian medical student currently studying in University of New South Wales, Australia.
+ Hi, welcome to my blog! I am a Bruneian medical student currently studying in University of New South Wales, Australia.
 Personal Work
-Music Production | Unreal Engine Game Hobbyist | Programmer   EDM Producer       Unreal Engine Game Hobbyist  DoCard 2 - A Dota 2 card game Scooby-Doo! Fright Night (Working Title)    Programmer  Komunis - A DHT Search Engine (Incomplete Backend) CEOYap Blog Marvel Avengers Alliance Trainer v9.</description>
+Music Production | Unreal Engine Game Hobbyist | Programmer   EDM Producer    Unreal Engine Game Hobbyist  DoKad 2 - A Dota 2 card game Survivor Horror (Work in Progress)    Programmer  Komunis - A DHT Search Engine (Incomplete Backend) CEOYap Blog Marvel Avengers Alliance Trainer v9.</description>
     </item>
     
   </channel>
